@@ -1,0 +1,36 @@
+.Question{
+  width: 500px;
+  height: 200px;
+  border: 2px solid;
+  animation: rounding 3s linear infinite;
+}
+.Question >button{
+  padding: 0;
+  height:25px;
+  width: auto;
+  transition-duration: 2s;
+  border-radius: 10px;
+}
+.Question >#start{
+  height: auto;
+  width: 100px;
+  border: none;
+  background-color: none;
+}
+.Question >button:hover{
+  height: 30px;
+  border: 2px solid cyan;
+  background-color: #c6c621;
+  color: red;
+}
+@keyframes rounding {
+  0%{border-top-color: yellow; }
+  20%{border-top-color: rgba(0,0,0,0);}
+  30%{border-right-color: yellow;}
+  40%{border-top-color: rgba(0,0,0,0);border-right-color: rgba(0,0,0,0);}
+  50%{border-bottom-color: yellow;}
+  60%{border-top-color: rgba(0,0,0,0);border-right-color: rgba(0,0,0,0);border-bottom-color: rgba(0,0,0,0);}
+  70%{border-left-color: yellow;}
+  85%{border-top-color: rgba(0,0,0,0);border-right-color: rgba(0,0,0,0);border-bottom-color: rgba(0,0,0,0);border-left-color: rgba(0,0,0,0);}
+
+}
