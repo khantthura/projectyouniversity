@@ -80,6 +80,7 @@ button {
     border:none;
     border-radius: 4px;
     background: #eeeeee;
+    margin-bottom: 10px;
 }
 button:active {
     background: #f2f3e6;
