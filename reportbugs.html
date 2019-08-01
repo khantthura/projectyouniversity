@@ -5,6 +5,7 @@
     <title>Report Bugs</title>
     <meta name="description" content="">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/form.css">
     <link href="https://fonts.googleapis.com/css?family=Domine:400,700|Roboto:100,400&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -33,18 +34,19 @@
     </div>
 </header>
 <section class="section report-section">
-    <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
-        <p>
-            <label>Email: <input type="text" name="name" /></label>
-        </p>
-        <p>
-            <label>Message: <textarea name="message"></textarea></label>
-        </p>
-        <div data-netlify-recaptcha="true"></div>
-        <p>
+    <div class="section-container form-container">
+        <h3>Report what you think is not right!</h3>
+        <form class="section-container" name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+            <label for="name">Name:</label>
+            <input id="name" name="name" type="text">
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email">
+            <label for="message">Error Feedback:</label>
+            <textarea id="message" name="err_feedbk"></textarea>
+            <div data-netlify-recaptcha="true"></div>
             <button type="submit">Send</button>
-        </p>
-    </form>
+        </form>
+    </div>
 </section>
 <footer class="footer-section">
     <div class="footer-container">
