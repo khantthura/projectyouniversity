@@ -168,20 +168,21 @@ p {
 .description .float-right {
     float: right;
 }
-.description .align-right {
-    text-align: right;
-    padding-left: 0;
-    padding-right: 20px;
+.description-text h2 {
+    margin-bottom: 20px;
 }
 .description-text {
+    padding: 20px;
+    text-align: justify;
     height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 20px;
     background: #b1e8ed;
 }
-
+.align-right > h2 {
+    text-align: right;
+}
 .uni-section {
     background: url("../img/section-banner-1.png") no-repeat center center;
 }
@@ -289,7 +290,28 @@ p {
 .cta-btn:hover::before {
     transform: translate3d(-50%, -50%, 0) scale3d(30, 30, 30);
 }
-
+.category-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.category-card {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 4px 6px 23px 8px hsla(0, 0%, 0%, 0.18);
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+}
+.category-card img {
+    width: 100px;
+    margin-bottom: 20px;
+}
 .footer-section {
     background: url("../img/footer-bg.png") no-repeat center center;
     background-size: cover;
