@@ -34,19 +34,51 @@
     </div>
 </header>
 <section class="section report-section">
-    <div class="section-container form-container">
-        <h3>Report what you think is not right!</h3>
-        <form class="section-container" name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
-            <label for="name">Name:</label>
-            <input id="name" name="name" type="text">
-            <label for="email">Email:</label>
-            <input id="email" name="email" type="email">
-            <label for="message">Error Feedback:</label>
-            <textarea id="message" name="err_feedbk"></textarea>
-            <div data-netlify-recaptcha="true"></div>
-            <button type="submit">Send</button>
-        </form>
-    </div>
+    <div class="section-container">
+        <h1 class="form-title">Report what you think is not right!</h1>
+        <p class="form-description">
+            Our website at current stage is barely real-world adaptable due to the not-wide-yet area of study and not-okay time.<br>
+            However, we believe that, apart from our own perspective of view, getting to know your opinions on where to improve is important for proper growth and accessibility of the website. We would call is "Contributing a better society".<br><br>
+            So if you found something inconvenient while surfing the website, please let us know so that we can make a change! :)
+        </p>
+            <form name="report" method="POST" data-netlify="true">
+                <fieldset class="personal-info">
+                    <label>
+                        Name
+                        <input name="name" type="text" required>
+                    </label>
+                    <label>
+                        Email
+                        <input name="email" type="email">
+                    </label>
+                    <label>
+                        Facebook Name
+                        <input name="fb-name" type="text">
+                    </label>
+                </fieldset>
+                <fieldset class="report-info">
+                    <label>
+                        Page of concern
+                        <select name="page_err" required>
+                            <option value="Home">Home</option>
+                            <option value="Universities">Universities</option>
+                            <option value="About_Us">About Us</option>
+                            <option value="Individual_Uni">Individual university page</option>
+                            <option value="Report_Bugs">Report Bugs</option>
+                            <option class="feedback" value="feedback">Feedback</option>
+                        </select>
+                    </label>
+                        <label>
+                            Message
+                            <textarea name="message" required></textarea>
+                        </label>
+                </fieldset>
+                <div class="submit-container">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        <small>*anything that you submit through this form is private</small>
+        </div>
 </section>
 <footer class="footer-section">
     <div class="footer-container">
