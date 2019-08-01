@@ -69,6 +69,10 @@ p {
     transform: scale(1.5);
     opacity: 1;
     filter: blur(0);
+    border: 1px solid transparent;
+    border-radius: 7px;
+    background: transparent;
+    box-shadow: 0px 0px 21px 16px hsla(0, 0%, 0%, 0.14);
     transition: .5s;
 }
 .navbar .nav-item a:before {
@@ -78,7 +82,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #afafff;
+    background: transparent;
     transform: scaleX(0);
     border-radius: 5px;
     z-index: -1;
