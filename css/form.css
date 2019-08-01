@@ -26,7 +26,7 @@ form {
     flex-wrap: wrap;
     background: #fff;
     padding: 20px;
-    box-shadow: 4px 6px 23px 8px hsla(0, 0%, 0%, 0.18);
+    box-shadow: 2px 5px 30px 7px hsla(0, 0%, 0%, 0.1);
     font-family: 'Roboto', sans-serif;
     margin: 50px 0;
 }
@@ -55,7 +55,7 @@ fieldset input, fieldset select, fieldset textarea{
     border-radius: 3px;
     border: none;
     height: 40px;
-    transition: all 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
 }
 
 fieldset textarea {
