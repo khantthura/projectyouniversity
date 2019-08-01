@@ -85,6 +85,6 @@ button {
 button:active {
     background: #f2f3e6;
 }
-small {
+.section-container small {
     color: #5a6268;
 }
