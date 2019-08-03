@@ -97,10 +97,13 @@ p {
     transition: 0.4s linear;
 }
 .dropdown-content .droplist {
-    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
     padding: 15px 10px;
     text-decoration: none;
     display: block;
+    font-size: 0.8rem;
 }
 .dropdown:hover .dropdown-content {
     visibility: visible;
