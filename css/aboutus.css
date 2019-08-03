@@ -1,0 +1,123 @@
+
+a{
+    text-decoration: none;
+}
+.section-container {
+    width: 1000px;
+}
+.section-container > img {
+    max-height: 200px;
+}
+
+.goal-container
+{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+    width: 100%;
+    height: auto;
+}
+.row-box{
+    width: 48%;
+    box-shadow: 4px 6px 23px 8px hsla(0, 0%, 0%, 0.18);
+    border-radius: 10px;
+}
+.box{
+    box-shadow: 4px 6px 23px 8px hsla(0, 0%, 0%, 0.18);
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+.main-box .box, .main-box .row-box {
+    box-shadow: 2px 4px 15px 5px hsla(0, 0%, 0%, 0.1);
+}
+.box-title {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: url("../img/background-blurred.png") center center no-repeat;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    width: 100%;
+}
+.box-inside {
+    padding: 0 25px;
+    width: 100%;
+}
+.box-text {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    line-height: 1.5;
+    background: white;
+    color: #61234e;
+    padding: 20px;
+    border-radius:0 0 10px 10px;
+    height: auto;
+    font-size: 18px;
+}
+.box-subtitle {
+    text-align: center;
+    line-height: 1.5;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.team-section {
+    text-align: center;
+    background: #fff;
+    height: auto;
+}
+
+
+.profile-section {
+    height: auto;
+}
+
+.profile-section a {
+    display: inline-block;
+    margin: 20px 30px;
+    max-width: 160px;
+    height: 230px;
+}
+
+.profile-section a img {
+    width: 100%;
+    border-radius:50% ;
+    filter: grayscale(100%);
+    transition: all 0.4s;
+}
+.profile-section a h3 {
+    padding: 10px;
+    height: auto;
+    text-decoration: none;
+    color: #61234e;
+}
+.profile-section a:hover>img {
+    margin-top:-20px;
+    margin-bottom:20px;
+    filter: none;
+}
+.system-flow-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    padding: 0 25px;
+}
+.box-text .full {
+    max-width: 100%;
+}
+.box-text.column {
+    flex-direction: column;
+}
+.box-text.column > ul {
+    align-self: flex-start;
+    list-style-position: inside;
+}
+.downside-text {
+    color: red;
+}

@@ -5,96 +5,115 @@
     <title>About Us - Youniversity | Find your favourite university!</title>
     <meta name="description" content="">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/aboutus.css">
     <link href="https://fonts.googleapis.com/css?family=Domine:400,700|Roboto:100,400&display=swap" rel="stylesheet">
-    <style>
-        a{
-          text-decoration: none;
-        }
-        .section-container {
-            width: 1000px;
-        }
-        .section-container > img {
-            max-height: 200px;
-        }
+<!--    <style>-->
+<!--    a{-->
+<!--        text-decoration: none;-->
+<!--    }-->
+<!--    .section-container {-->
+<!--        width: 1000px;-->
+<!--    }-->
+<!--    .section-container > img {-->
+<!--        max-height: 200px;-->
+<!--    }-->
 
-        .goal-container
-        {
-            display: flex;
-            justify-content: space-between;
-            border-radius: 7px;
-            width: 100%;
-            height: auto;
-        }
-        .goal-container .box{
-            max-width: 48%;
-            box-shadow: 4px 6px 23px 8px hsla(0, 0%, 0%, 0.18);
-            border-radius: 10px;
-        }
-        .box{
-            box-shadow: 4px 6px 23px 8px hsla(0, 0%, 0%, 0.18);
-            border-radius: 10px;
-        }
-        .box-title {
-            text-align: center;
-            font-size: 1.5rem;
-            padding: 10px;
-            margin-bottom: 10px;
-            background: url("img/background-blurred.png") center center no-repeat;
-            border-radius: 10px 10px 0 0;
-            color: white;
-        }
-        .box-text {
-            display: flex;
-            align-items: center;
-            text-align: justify;
-            line-height: 1.5;
-            background: white;
-            color: #61234e;
-            padding: 20px;
-            border-radius:0 0 10px 10px;
-            height: auto;
-            font-size: 18px;
-        }
+<!--    .goal-container-->
+<!--    {-->
+<!--        display: flex;-->
+<!--        justify-content: space-between;-->
+<!--        border-radius: 7px;-->
+<!--        width: 100%;-->
+<!--        height: auto;-->
+<!--    }-->
+<!--    .row-box{-->
+<!--        width: 45%;-->
+<!--        box-shadow: 4px 6px 23px 8px hsla(0, 0%, 0%, 0.18);-->
+<!--        border-radius: 10px;-->
+<!--    }-->
+<!--    .box{-->
+<!--        box-shadow: 4px 6px 23px 8px hsla(0, 0%, 0%, 0.18);-->
+<!--        border-radius: 10px;-->
+<!--        width: 100%;-->
+<!--        height: auto;-->
+<!--    }-->
+<!--    .box-inside {-->
+<!--        width: 90%;-->
+<!--    }-->
 
-        .team-section {
-            text-align: center;
-            background: #fff;
-            height: auto;
-        }
+<!--    .box-title {-->
+<!--        text-align: center;-->
+<!--        font-size: 1.5rem;-->
+<!--        padding: 10px;-->
+<!--        margin-bottom: 10px;-->
+<!--        background: url("img/background-blurred.png") center center no-repeat;-->
+<!--        border-radius: 10px 10px 0 0;-->
+<!--        color: white;-->
+<!--    }-->
+<!--    .box-text {-->
+<!--        display: flex;-->
+<!--        align-items: center;-->
+<!--        text-align: justify;-->
+<!--        line-height: 1.5;-->
+<!--        background: white;-->
+<!--        color: #61234e;-->
+<!--        padding: 20px;-->
+<!--        border-radius:0 0 10px 10px;-->
+<!--        height: auto;-->
+<!--        font-size: 18px;-->
+<!--    }-->
+<!--    .box-subtitle {-->
+<!--        text-align: center;-->
+<!--        line-height: 1.5;-->
+<!--        padding: 20px;-->
+<!--        font-size: 20px;-->
+<!--    }-->
 
-        .team-section .box-title {
-            font-size: 40px;
-        }
+<!--    .team-section {-->
+<!--        text-align: center;-->
+<!--        background: #fff;-->
+<!--        height: auto;-->
+<!--    }-->
 
-        .profile-section {
-            height: auto;
-        }
 
-        .profile-section a {
-            display: inline-block;
-            margin: 20px 30px;
-            max-width: 160px;
-            height: 230px;
-        }
+<!--    .profile-section {-->
+<!--        height: auto;-->
+<!--    }-->
 
-        .profile-section a img {
-            width: 100%;
-            border-radius:50% ;
-            filter: grayscale(100%);
-            transition: all 0.4s;
-        }
-        .profile-section a h3 {
-            padding: 10px;
-            height: auto;
-            text-decoration: none;
-            color: #61234e;
-        }
-        .profile-section a:hover>img {
-            margin-top:-20px;
-            margin-bottom:20px;
-            filter: none;
-        }
-    </style>
+<!--    .profile-section a {-->
+<!--        display: inline-block;-->
+<!--        margin: 20px 30px;-->
+<!--        max-width: 160px;-->
+<!--        height: 230px;-->
+<!--    }-->
+
+<!--    .profile-section a img {-->
+<!--        width: 100%;-->
+<!--        border-radius:50% ;-->
+<!--        filter: grayscale(100%);-->
+<!--        transition: all 0.4s;-->
+<!--    }-->
+<!--    .profile-section a h3 {-->
+<!--        padding: 10px;-->
+<!--        height: auto;-->
+<!--        text-decoration: none;-->
+<!--        color: #61234e;-->
+<!--    }-->
+<!--    .profile-section a:hover>img {-->
+<!--        margin-top:-20px;-->
+<!--        margin-bottom:20px;-->
+<!--        filter: none;-->
+<!--    }-->
+<!--    .system-flow-container {-->
+<!--        display: flex;-->
+<!--        flex-direction: column;-->
+<!--        align-items: center;-->
+<!--        justify-content: center;-->
+<!--    }-->
+<!--    .row {-->
+<!--        justify-content: space-around;-->
+<!--    }-->
+<!--</style>-->
 </head>
 <body>
 <header class="header-container">
@@ -131,14 +150,14 @@
     <div class="section-container">
         <img class="mb-30" src="img/group.svg" alt="group-icon">
         <h1 class="section-title">Get to know us!</h1>
-        <section id="aboutus">
+        <section id="aboutus" class="mb-30">
             <div class="goal-container">
-                <div class="box mb-30">
+                <div class="row-box mb-30">
                     <h1 class="box-title">💎Our Vision💎</h1>
                         <p class="box-text">This is a collection of informations about the universities
                             to be a correct choice for matric passed student.</p>
                 </div>
-                <div class="box mb-30">
+                <div class="row-box mb-30">
                     <h1 class="box-title">🏁Our Mission🏁</h1>
                     <p class="box-text">In the near furture, we will add all the universities in myanmar
                         along with more detailed informations about each university.<br>
@@ -153,7 +172,7 @@
             </div>
             <div class="section-container">
                 <div class="team-section box">
-                    <h1 class="box-title">Our Team</h1>
+                    <h2 class="box-title">👨‍👨Our Team‍👧‍‍👧‍</h2>
                     <div class="profile-section">
                         <a href="https://www.facebook.com/mxn.khant">
                             <img src="img/KT.jpg" alt="">
@@ -187,15 +206,63 @@
                 </div>
             </div>
         </section>
+        <section class="section system-flow-section">
+            <div class="section-container system-flow-container">
+                <img class="mb-30" src="img/systemflow.svg" alt="system-flow-icon">
+                <h1 class="section-title">How we did the project</h1>
+                <div class="box main-box mb-30">
+                    <h2 class="box-title">⚙️Processing Scheme⚙</h2>
+                    <p class="box-subtitle">Here, we would like to share how we managed to create this website.</p>
+                    <div class="row mb-30">
+                        <div class="row-box">
+                            <h3 class="box-title">👨‍💻Data Collection👩‍💻‍</h3>
+                            <p class="box-text">University Data are mostly collected from online sources. And for the consistency of the data and with the purpose of becoming a database-like collection for the successors, we store the collected data in the Excel sheets.</p>
+                            <p class="box-text downside-text">The only problem is that we do not have enough information to get access to all lists of universities in Myanmar.</p>
+                        </div>
+                        <div class="row-box">
+                            <h3 class="box-title">🕵️‍♂️Data Research🕵️‍♀️️</h3>
+                            <p class="box-text">Data Research is the main pipeline of this project and is also our team members' main focus. For the purpose of consistency, again, we manage to put in all the data we could research into a share sheet for re-usability. We would not want any data that we researched to be in vain after the project.</p>
+                            <p class="box-text downside-text">Sources from online were out-of-date and we have to find another ways round to get the updated and more accurate results.</p>
+                        </div>
+                    </div>
+                    <div class="row mb-30">
+                        <div class="row-box">
+                            <h3 class="box-title">🔖Task Allocation🔖</h3>
+                            <p class="box-text">The team leader of the project is in charge of this area. Since each member has his or her own good points and weak points, tasks are carefully assigned to members within their capability. </p>
+                            <p class="box-text downside-text"> Khant Thura is responsible for the project and its main theme and design. Wai Yan Moe Myint Lwin and Swam Pyae Sone Tun responsible for the innovative ideas and CSS design tweaks as well as JavaScript functions. The rest of members, being the main resources of information, responsible for collecting, gathering information and putting it into the HTML content.</p>
+                        </div>
+                        <div class="row-box">
+                            <h3 class="box-title">👯‍♀️All-inclusive Teamwork👯‍♂️</h3>
+                            <p class="box-text">We make sure that no one is left behind while building the project together. Believing that two is better than one we gather and exchange every member's point of view on every area of the project. With the tasks assigned to each member, we believe that every member may gain confident in answering the questions to their area of work and improve the knowledge of Web Development.</p>
+                            <p class="box-text downside-text">Since what we have learned from the teachers is not enough to create a real-world website, it is difficult to create an interface that we really expect. Self-study of individual member is the fundamental foundation of the project we are presenting.</p>
+                        </div>
+                    </div>
+                    <div class="box-inside">
+                    <div class="box mb-30">
+                        <h3 class="box-title">🌐Our Collection Stored in Excel🌐</h3>
+                        <p class="box-text"><img class="full" src="img/excel-collection1.png" alt="data-collection"></p>
+                    </div>
+                </div>
+                </div>
+                <div class="box">
+                    <h2 class="box-title">⏺Project Goal⏹</h2>
 
-            <h1>Contact Us</h1>
-            <p>Group-4<br>
-                First Year,Section(B)<br>
-                University of Information Technology<br>
-                Ph- <a href="tel:09777937937">09777937937</a>, <a href="tel:09772446290">09772446290</a>
-
+                    <div class="box-text column">
+                        <p>Nothing is perfect, neither is our website. Since we are still at the basic steps of our web development journey, we understand that there are many flaws and unstable work under process throughout our website. We also want you to understand that.<br><br>However, we are youths with developing mindsets, and we never plan to stop growing this website. As far as goals are concerned, we have made the most of it clear for us to keep moving forward.<br><br>As we go on, we would like to:</p>
+                        <ul class="mb-30">
+                            <li>implement a stable version and more reliable version of this website</li>
+                            <li>widen our research area of universities throughout the whole Myanmar</li>
+                            <li>ease off the confusion for high school graduates while deciding where to go after school</li>
+                            <li>make a website that everyone can take a reference of</li>
+                            <li>develop observation skills of each member in the team working on the Project</li>
+                        </ul>
+                        <h2><span style="font-size: 2.5rem;">"</span> With hard work and passion, we believe that every thing is possible<span style="font-size: 2.5rem;">"</span></h2>
+                </div>
+            </div>
+            </div>
+        </section>
+        <p class="box-text">You may reach us at 7th Batch Section B :)</p>
         </div>
-    </div>
 </section>
 <footer class="footer-section">
     <div class="footer-container">

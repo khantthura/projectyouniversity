@@ -417,7 +417,7 @@ p {
 .cta-btn:hover::before {
     transform: translate3d(-50%, -50%, 0) scale3d(30, 30, 30);
 }
-.category-row {
+.row {
     display: flex;
     justify-content: space-between;
     align-items: center;
