@@ -161,8 +161,103 @@ p {
     width: 400px;
     margin-top: -200px;
 }
-
 .section {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.section.featured-section {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  font-family: sans-serif;
+}
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  width: 500px;
+  height: 30vh;
+}
+.slider-container .slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500%;
+  height: 100%;
+  animation: animate 20s linear infinite;
+}
+.slider-container .slider .slide {
+  position: relative;
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+.slider-container .slider .slide .caption {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  padding: 5px;
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+}
+.slider-container .slider .slide .caption h2 {
+  color: #fff;
+  font-size: 28px;
+}
+.slider-container .slider .slide.slide1 {
+  background: url('../img/img1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.slider-container .slider .slide.slide2 {
+  background: url('../img/img2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.slider-container .slider .slide.slide3 {
+  background: url('../img/img3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.slider-container .slider .slide.slide4 {
+  background: url('../img/img4.jpg');
+  background-size: cover;
+  background-position: center;
+}
+@keyframes animate {
+  0% {
+    left: 0;
+  }
+  10% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  35% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  60% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  85% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+.section.category-section {
     display: flex;
     justify-content: center;
     padding: 50px;
@@ -191,7 +286,6 @@ p {
 .description .photo-left {
     border-radius: 20px 0 0 0;
 }
-
 .description .photo-right {
     border-radius: 0 30px 0 0;
 }
@@ -361,4 +455,7 @@ p {
     height: 460px;
     color: #ebfffb;
     padding-bottom: 20px;
+}
+.mb-30 {
+    margin-bottom: 30px;
 }

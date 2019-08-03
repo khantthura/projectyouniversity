@@ -7,51 +7,92 @@
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Domine:400,700|Roboto:100,400&display=swap" rel="stylesheet">
     <style>
-        h1{
-            text-align: center;
-        }
-        .section p{
-            text-align: center;
-            padding: 50px;
-            font-size: 30px;
-            border: 2px solid blue;
-            box-sizing: border-box;
-            overflow: auto;
-        }
         a{
           text-decoration: none;
         }
-        img {
-            width: 62px;
+        .section-container {
+            width: 1000px;
         }
-        .members {
+        .section-container > img {
+            max-height: 200px;
+        }
+
+        .goal-container
+        {
+            display: flex;
+            justify-content: space-between;
+            border-radius: 7px;
+            width: 100%;
+            height: auto;
+        }
+        .goal-container .box{
+            max-width: 48%;
+            box-shadow: 4px 6px 23px 8px hsla(0, 0%, 0%, 0.18);
+            border-radius: 10px;
+        }
+        .box{
+            box-shadow: 4px 6px 23px 8px hsla(0, 0%, 0%, 0.18);
+            border-radius: 10px;
+        }
+        .box-title {
+            text-align: center;
+            font-size: 1.5rem;
+            padding: 10px;
+            margin-bottom: 10px;
+            background: url("img/background-blurred.png") center center no-repeat;
+            border-radius: 10px 10px 0 0;
+            color: white;
+        }
+        .box-text {
+            display: flex;
+            align-items: center;
+            text-align: justify;
+            line-height: 1.5;
+            background: white;
+            color: #61234e;
+            padding: 20px;
+            border-radius:0 0 10px 10px;
+            height: auto;
+            font-size: 18px;
+        }
+
+        .team-section {
+            text-align: center;
+            background: #fff;
+            height: auto;
+        }
+
+        .team-section .box-title {
+            font-size: 40px;
+        }
+
+        .profile-section {
+            height: auto;
+        }
+
+        .profile-section a {
+            display: inline-block;
+            margin: 20px 30px;
+            max-width: 160px;
+            height: 230px;
+        }
+
+        .profile-section a img {
+            width: 100%;
+            border-radius:50% ;
+            filter: grayscale(100%);
+            transition: all 0.4s;
+        }
+        .profile-section a h3 {
+            padding: 10px;
+            height: auto;
             text-decoration: none;
+            color: #61234e;
         }
-        .VisMis{
-          width: 100%;
-          height: 400px;
-        }
-        .Vision , .Mission{
-          width: 50%;
-          float: left;
-          margin-left: -20px;
-        }
-        .Vision >p, .Mission>p{
-          height: 300px;
-          width: 100%;
-          padding: 20px;
-          float: left;
-        }
-        .Vision>p{
-          height: 300px;
-          width: 100%;
-          padding: 70px;
-        }
-        .clearfix{
-          clear: both;
-        }
-        .Story >p{
-            font-size: 20px;
+        .profile-section a:hover>img {
+            margin-top:-20px;
+            margin-bottom:20px;
+            filter: none;
         }
     </style>
 </head>
@@ -86,49 +127,67 @@
         <!--        <img class="intro-img" src="img/header-img.png" alt="intro-img">-->
     </div>
 </header>
-<section class="section category-section">
-    <div>
-        <div class="VisMis">
-          <div class="Vision">
-            <h1>Our Vision</h1>
-            <p>This is a collection of informations about the universities
-                to be a correct choice for matric passed student.</p>
-          </div>
-
-        <div class="Mission">
-          <h1>Our Mission</h1>
-          <p>In the near furture, we will add all the universities in myanmar
-              along with more detailed informations about each university.<br>
-              We will figure out a way to let the users interact with one another and
-              to be able to apply the school through our website. </p>
-        </div>
-        </div>
-
-
-        <div class="Story">
-          <h1>Our Story</h1>
-          <p> Open Campus,which our teachers told us,is held every year at our university.At that time,we didn't know what 'Open Campus'was. Our class has 36 students and we were grouped randomly into 5 to participate this campus. At that time we all felt very excited because we had to create a project with new friends. The deadline is just one month.So,we had a meeting the next day and chose our group leader.And then, we discussed about the title, which must be useful and modified.Finally we determined to do a project for matriculation passed students.We chose a title "Recommendedme Uni" to recommend those students about the universities.We chose this because we knew the difficulties of students on searching the universities and wanted to be convenient  to them.We did our sections of project dutifully and happily under the leadership of Khant Thura(leader).At the weekends,we even met at CAFE SHOP to discuss how to create our web design. That's how "IMPIRIAL CAFE" became our meeting and we had finished our project.Sincerely,I'm really glad that I can do this project successfully with these friends.Though we had faced many difficulties at this project journey,we had done our best to reach the goal.
-          </p>
-        </div>
-        <div class="clearfix"></div>
-        <div>
-            <h1>Members</h1>
-            <div class="members">
-                <img src="img/MKK.jpg">
-                <a href="https://www.facebook.com/profile.php?id=100038260861940">Min Khant Kyaw </a>
-                <img src="img/HL.jpg">
-                <a href="https://www.facebook.com/profile.php?id=100016486278682">Htay Lwin</a>
-                <img src="img/KT.jpg">
-                <a href="https://www.facebook.com/mxn.khant">Khant Thura</a>
-                <img src="img/WY.jpg">
-                <a href="https://www.facebook.com/waiyan.moemyintlwin?ref=br_rs">Wai Yan Moe Myint Lwin</a>
-                <img src="img/SP.jpg">
-                <a href="https://www.facebook.com/11martin1001">Swam Pyae Sone Htun</a>
-                <img src="img/TH.jpg">
-                <a href="https://www.facebook.com/angel.zarlay.54">Thet Htar Thuzar</a>
-                <img src="img/HS.jpg">
-                <a href="https://www.facebook.com/hsuyati.winn">Hsu Yati Winn</a>
+<section class="section">
+    <div class="section-container">
+        <img class="mb-30" src="img/group.svg" alt="group-icon">
+        <h1 class="section-title">Get to know us!</h1>
+        <section id="aboutus">
+            <div class="goal-container">
+                <div class="box mb-30">
+                    <h1 class="box-title">💎Our Vision💎</h1>
+                        <p class="box-text">This is a collection of informations about the universities
+                            to be a correct choice for matric passed student.</p>
+                </div>
+                <div class="box mb-30">
+                    <h1 class="box-title">🏁Our Mission🏁</h1>
+                    <p class="box-text">In the near furture, we will add all the universities in myanmar
+                        along with more detailed informations about each university.<br>
+                        We will figure out a way to let the users interact with one another and
+                        to be able to apply the school through our website. </p>
+                    </div>
             </div>
+            <div class="box mb-30">
+                <h1 class="box-title">🥺Our Story🥺</h1>
+                <p class="box-text"> Open Campus,which our teachers told us,is held every year at our university.At that time,we didn't know what 'Open Campus'was. Our class has 36 students and we were grouped randomly into 5 to participate this campus. At that time we all felt very excited because we had to create a project with new friends. The deadline is just one month.So,we had a meeting the next day and chose our group leader.And then, we discussed about the title, which must be useful and modified.Finally we determined to do a project for matriculation passed students.We chose a title "Recommendedme Uni" to recommend those students about the universities.We chose this because we knew the difficulties of students on searching the universities and wanted to be convenient  to them.We did our sections of project dutifully and happily under the leadership of Khant Thura(leader).At the weekends,we even met at CAFE SHOP to discuss how to create our web design. That's how "IMPIRIAL CAFE" became our meeting and we had finished our project.Sincerely,I'm really glad that I can do this project successfully with these friends.Though we had faced many difficulties at this project journey,we had done our best to reach the goal.
+                </p>
+            </div>
+            <div class="section-container">
+                <div class="team-section box">
+                    <h1 class="box-title">Our Team</h1>
+                    <div class="profile-section">
+                        <a href="https://www.facebook.com/mxn.khant">
+                            <img src="img/KT.jpg" alt="">
+                            <h3>Khant <br>Thura</h3>
+                        </a>
+                        <a href="https://www.facebook.com/waiyan.moemyintlwin">
+                            <img src="img/WY.jpg" alt="">
+                            <h3>Wai Yan Moe Myint Lwin</h3>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100038260861940">
+                            <img src="img/MKK.jpg" alt="">
+                            <h3>Min Khant Kyaw</h3>
+                        </a>
+                        <a href="https://www.facebook.com/11martin1001">
+                            <img src="img/SP.jpg" alt="">
+                            <h3>Swam Pyae Sone Tun</h3>
+                        </a>
+                        <a href="https://www.facebook.com/angel.zarlay.54">
+                            <img src="img/TH.jpg" alt="">
+                            <h3>Thet Htar Thu Zar</h3>
+                        </a>
+                        <a href="https://www.facebook.com/hsuyati.winn">
+                            <img src="img/HS.jpg" alt="">
+                            <h3>Hsu Yati Winn</h3>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100016486278682">
+                            <img src="img/HL.jpg" alt="">
+                            <h3>Htay Lwin</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
             <h1>Contact Us</h1>
             <p>Group-4<br>
                 First Year,Section(B)<br>
