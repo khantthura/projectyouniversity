@@ -7,7 +7,7 @@
     height: auto;
     box-shadow: 5px 6px 29px 13px hsla(0, 0%, 0%, 0.14);
     border-radius: 2rem;
-    background: url("../img/background-blurred.png") center center no-repeat;
+    background: url("../img/gradient.jpg") center center no-repeat;
     padding: 100px;
 }
 .quiz-container h3 {
@@ -28,7 +28,7 @@
      font-size: 20px;
      width: 400px;
      height: 80px;
-     color: #ecfcff;
+     color: #2F4F4F;
  }
 .quiz-container button:last-of-type {
     margin-bottom: 0;
@@ -52,7 +52,7 @@
 }
 .quiz-btn:hover {
     background-color: rgba(255,255,255,0.9);
-    color: #000;
+    color: #808080;
 }
 .quiz-btn:active {
     background-color: rgba(255,255,255,0.7);

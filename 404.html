@@ -19,24 +19,36 @@
             margin-bottom: 50px;
         }
         .header-container {
-            background: url("img/background-blurred.png") center center no-repeat;
-            max-height: 400px;
+            background: url("img/gradient.jpg") center center no-repeat;
+            height: 300px;
+            max-height: 350px;
+            background-size: cover;
         }
-
+        .footer-container{
+          background: url("img/gradient.jpg") center center no-repeat;
+          max-height: 60px;
+          background-size: cover;
+        }
     </style>
 </head>
 <body>
 <header class="header-container">
-    <div class="navbar-container">
-        <div class="logo-container">
-            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
-        </div>
-        <ul class="navbar">
-            <li class="nav-item"><a href="index.html">Home</a></li>
-            <li class="nav-item"><a href="universities.html">Universities</a></li>
-            <li class="nav-item"><a href="aboutus.html">About Us</a></li>
-            <li class="nav-item"><a href="reportbugs.html">Report Bugs</a></li>
-        </ul>
+  <div class="navbar-container">
+      <div class="logo-container">
+          <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+      </div>
+      <ul class="navbar">
+          <li class="nav-item current"><a href="index.html">Home</a></li>
+          <div class="dropdown">
+            <li class="nav-item uni"><a href="universities.html">Universities</a></li>
+            <div class="dropdown-content">
+              <a class="droplist" href="#">Link 1</a>
+              <a class="droplist" href="#">Admission Criteria</a>
+            </div>
+          </div>
+          <li class="nav-item"><a href="aboutus.html">About Us</a></li>
+          <li class="nav-item"><a href="reportbugs.html">Report Bugs</a></li>
+      </ul>
     </div>
 <!--    <div class="header-child">-->
 <!--        <div class="intro-text">-->
