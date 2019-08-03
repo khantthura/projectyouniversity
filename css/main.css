@@ -161,6 +161,11 @@ p {
     width: 400px;
     margin-top: -200px;
 }
+.section {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
 .section.featured-section {
   display: flex;
   justify-content: center;
@@ -204,22 +209,22 @@ p {
   font-size: 28px;
 }
 .slider-container .slider .slide.slide1 {
-  background: url(img/img1.jpg);
+  background: url('../img/img1.jpg');
   background-size: cover;
   background-position: center;
 }
 .slider-container .slider .slide.slide2 {
-  background: url(img/img2.jpg);
+  background: url('../img/img2.jpg');
   background-size: cover;
   background-position: center;
 }
 .slider-container .slider .slide.slide3 {
-  background: url(img/img3.jpg);
+  background: url('../img/img3.jpg');
   background-size: cover;
   background-position: center;
 }
 .slider-container .slider .slide.slide4 {
-  background: url(img/img4.jpg);
+  background: url('../img/img4.jpg');
   background-size: cover;
   background-position: center;
 }
