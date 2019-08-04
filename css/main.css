@@ -170,6 +170,8 @@ p {
 .section.featured-section {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding: 50px;
   font-family: sans-serif;
 }
@@ -178,6 +180,8 @@ p {
   overflow: hidden;
   width: 500px;
   height: 30vh;
+  border-radius: 10px;
+  box-shadow: 8px 12px 23px 8px hsla(0, 0%, 0%, 0.18);
 }
 .slider-container .slider {
   position: absolute;
@@ -205,9 +209,10 @@ p {
   background: rgba(0,0,0,.5);
   box-sizing: border-box;
 }
-.slider-container .slider .slide .caption h2 {
+.slider-container .slider .slide .caption a {
+  text-decoration: none;
   color: #fff;
-  font-size: 28px;
+  font-size: 21px;
 }
 .slider-container .slider .slide.slide1 {
     background-size: cover;
