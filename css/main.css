@@ -149,9 +149,10 @@ p {
     width: 500px;
     color: white;
 }
-.intro-text h1{
+.intro-text .intro-title{
     margin-bottom: 20px;
     font-family: 'Domine', serif;
+    text-transform: uppercase;
 }
 .intro-text p{
     font-family: 'Roboto', sans-serif;
@@ -209,24 +210,20 @@ p {
   font-size: 28px;
 }
 .slider-container .slider .slide.slide1 {
-  background: url('../img/img1.jpg');
-  background-size: cover;
-  background-position: center;
+    background-size: cover;
+    background: url('../img/img1.jpg') center;
 }
 .slider-container .slider .slide.slide2 {
-  background: url('../img/img2.jpg');
-  background-size: cover;
-  background-position: center;
+    background-size: cover;
+    background: url('../img/img2.jpg') center;
 }
 .slider-container .slider .slide.slide3 {
-  background: url('../img/img3.jpg');
-  background-size: cover;
-  background-position: center;
+    background-size: cover;
+    background: url('../img/img3.jpg') center;
 }
 .slider-container .slider .slide.slide4 {
-  background: url('../img/img4.jpg');
-  background-size: cover;
-  background-position: center;
+    background-size: cover;
+    background: url('../img/img4.jpg') center;
 }
 @keyframes animate {
   0% {
@@ -423,15 +420,19 @@ p {
 .category-card {
     background: #fff;
     border-radius: 20px;
+    padding: 10px;
     box-shadow: 4px 6px 23px 8px hsla(0, 0%, 0%, 0.18);
-    margin: 50px;
-    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 200px;
+    width: 30%;
+    height: 250px;
     text-align: center;
+}
+.category-card a {
+    text-decoration:none;
+    color:black;
 }
 .category-card img {
     width: 100px;

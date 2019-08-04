@@ -6,6 +6,12 @@
     <meta name="description" content="We have a handful of universities that may interest you during your decision process.">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Domine:400,700|Roboto:100,400&display=swap" rel="stylesheet">
+    <style>
+        .second-row {
+            justify-content: space-evenly;
+        }
+
+    </style>
 </head>
 <body>
 <header class="header-container">
@@ -39,68 +45,78 @@
         </div>
 </header>
 <section class="section featured-section">
-  <div class="slider-container">
-    <div class="slider">
-      <div class="slide slide1">
-        <div class="caption">
-          <h2>Slide 1</h2>
-        </div>
-      </div>
-      <div class="slide slide2">
-        <div class="caption">
-          <h2>Slide 2</h2>
-        </div>
-      </div>
-      <div class="slide slide3">
-        <div class="caption">
-          <h2>Slide 3</h2>
-        </div>
-      </div>
-      <div class="slide slide4">
-        <div class="caption">
-          <h2>Slide 4</h2>
-        </div>
-      </div>
-      <div class="slide slide1">
-        <div class="caption">
-          <h2>Slide 1</h2>
-        </div>
-      </div>
-  </div>
-</div>
+<!--  <div class="slider-container">-->
+<!--    <div class="slider">-->
+<!--      <div class="slide slide1">-->
+<!--        <div class="caption">-->
+<!--          <h2>Slide 1</h2>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="slide slide2">-->
+<!--        <div class="caption">-->
+<!--          <h2>Slide 2</h2>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="slide slide3">-->
+<!--        <div class="caption">-->
+<!--          <h2>Slide 3</h2>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="slide slide4">-->
+<!--        <div class="caption">-->
+<!--          <h2>Slide 4</h2>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="slide slide1">-->
+<!--        <div class="caption">-->
+<!--          <h2>Slide 1</h2>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--  </div>-->
+<!--</div>-->
 </section>
 <section class="section category-section">
     <div class="section-container">
         <h1 class="section-title">University Categories</h1>
         <div class="container uni-catelog-container">
-            <div class="row">
-              <a href="categories/computer.html" style="text-decoration:none; color:black;">
+            <div class="row mb-30 first-row">
+
                 <div class="category-card cu-card">
-                    <img alt="computer-uni" src="img/computer.svg">
-                    <h3>Computer Universities</h3>
+                    <a href="categories/computer.html">
+                        <img alt="computer-uni" src="img/computer.svg">
+                        <h3>Computer Universities</h3>
+                    </a>
                 </div>
-              </a>
-              <a href="categories/education.html" style="text-decoration:none; color:black;">
+
                 <div class="category-card edu-card">
-                    <img alt="education-uni" src="img/education.svg">
-                    <h3>Education Universities</h3>
+                    <a href="categories/education.html">
+                        <img alt="education-uni" src="img/education.svg">
+                        <h3>Education Universities</h3>
+                    </a>
                 </div>
-              </a>
+
+                <div class="category-card artnsci-card">
+                    <a href="categories/artnsci.html">
+                        <img alt="arts-and-science" src="img/experiment.svg">
+                        <h3>Arts and Science Universities</h3>
+                    </a>
+                </div>
             </div>
-            <div class="row">
-              <a href="categories/institutional.html" style="text-decoration:none; color:black;">
+            <div class="row mb-30 second-row">
                 <div class="category-card inst-card">
-                    <img alt="institute-uni" src="img/institute.svg">
-                    <h3>Institutional Universities</h3>
+                    <a href="categories/institutional.html">
+                        <img alt="institute-uni" src="img/institute.svg">
+                        <h3>Institutional Universities</h3>
+                    </a>
                 </div>
-              </a>
-              <a href="categories/technology.html" style="text-decoration:none; color:black;">
                 <div class="category-card tech-card">
-                    <img alt="technology-uni" src="img/technological.svg">
-                    <h3>Technological Universities</h3>
+                    <a href="categories/technology.html">
+                        <img alt="technology-uni" src="img/technological.svg">
+                        <h3>Technological Universities</h3>
+                    </a>
                 </div>
-              </a>
             </div>
+
         </div>
     </div>
 </section>
