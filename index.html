@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="css/quiz.css">
     <link href="https://fonts.googleapis.com/css?family=Domine:400,700|Roboto:100,400&display=swap" rel="stylesheet">
     <script src="Question.js"></script>
+    <style>
+        .slider-container {
+            bottom: 100px;
+            border-radius: 20px;
+            box-shadow: 4px 6px 23px 8px hsla(0, 0%, 0%, 0.18);
+            height: 50vh;
+        }
+    </style>
 </head>
 <body>
 <header class="header-main">
@@ -67,24 +75,53 @@
             <p class="section-paragraph">These are the most featured universities of the year.</p>
         </div>
 
-        <div class="scrolling-wrapper">
-            <div class="card">
-                <h2>Card</h2>
-            </div>
-            <div class="card">
-                <h2>Card</h2>
-            </div>
-            <div class="card">
-                <h2>Card</h2>
-            </div>
-            <div class="card">
-                <h2>Card</h2>
-            </div>
-            <div class="card">
-                <h2>Card</h2>
-            </div>
-            <div class="card">
-                <h2>Card</h2>
+<!--        <div class="scrolling-wrapper">-->
+<!--            <div class="card">-->
+<!--                <h2>Card</h2>-->
+<!--            </div>-->
+<!--            <div class="card">-->
+<!--                <h2>Card</h2>-->
+<!--            </div>-->
+<!--            <div class="card">-->
+<!--                <h2>Card</h2>-->
+<!--            </div>-->
+<!--            <div class="card">-->
+<!--                <h2>Card</h2>-->
+<!--            </div>-->
+<!--            <div class="card">-->
+<!--                <h2>Card</h2>-->
+<!--            </div>-->
+<!--            <div class="card">-->
+<!--                <h2>Card</h2>-->
+<!--            </div>-->
+<!--        </div>-->
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide slide1">
+                    <div class="caption">
+                        <h2>University of Information Technology</h2>
+                    </div>
+                </div>
+                <div class="slide slide2">
+                    <div class="caption">
+                        <h2>Yangon Technological University</h2>
+                    </div>
+                </div>
+                <div class="slide slide3">
+                    <div class="caption">
+                        <h2>Yangon University</h2>
+                    </div>
+                </div>
+                <div class="slide slide4">
+                    <div class="caption">
+                        <h2>University of Medicine</h2>
+                    </div>
+                </div>
+                <div class="slide slide1">
+                    <div class="caption">
+                        <h2>University of Information Technology</h2>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -93,7 +130,7 @@
   <div class="section-container">
     <h1 class="section-title">Take a quiz and know where to go!</h1>
     <div class="quiz-container">
-      <img src="img/mortarboard.svg">
+      <img id="graduate" src="img/mortarboard.svg">
       <button class="quiz-btn" type="button" name="button" id="start" onclick="Try();">Start</button>
       <h3 id='Quiz' style="display: none;"></h3>
       <button class="quiz-btn" type="button" id="button1" style="display: none;" onclick="Click1();" value=0 ></button>
