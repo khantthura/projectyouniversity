@@ -150,6 +150,7 @@ function check(Answer) {
     document.getElementById('button2').style.display="none";
     document.getElementById('button3').style.display="none";
     document.getElementById('start').style.display="";
+    document.getElementById('graduate').style.display="";
     document.getElementById('resolve').style.display="";
 }
 
@@ -167,6 +168,7 @@ function Try() {
   document.getElementById('button2').style.display="block";
   document.getElementById('button3').style.display="block";
   document.getElementById('start').style.display="none";
+  document.getElementById('graduate').style.display="none";
   document.getElementById('resolve').style.display="none";
   I++;
 }
