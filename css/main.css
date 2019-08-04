@@ -272,7 +272,7 @@ p {
 }
 .section-title {
     font-size: 3rem;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .description {
     overflow: hidden;
@@ -298,6 +298,10 @@ p {
 .description-text h2 {
     margin-bottom: 20px;
 }
+.description-text p {
+    font-size: 17px;
+    line-height: 20px;
+}
 .description-text {
     padding: 20px;
     text-align: justify;
@@ -313,7 +317,6 @@ p {
 .uni-section {
     background: url("../img/section-banner-1.png") no-repeat center center;
 }
-
 .uni-section .section-container {
     height: 710px;
     justify-content: flex-start;
@@ -339,7 +342,6 @@ p {
     width: 0;
     background: transparent;
 }
-
 .card {
     display: inline-block;
     text-align: center;
@@ -351,8 +353,6 @@ p {
     box-shadow: 4px 6px 23px 8px hsla(0, 0%, 0%, 0.18);
     padding: 132px 0;
 }
-
-
 .cta-container {
     display: flex;
     justify-content: space-around;
@@ -394,7 +394,6 @@ p {
     font-weight: 100;
     transition: color 0.4s ease-in-out;
 }
-
 .cta-btn::before {
     content: '';
     z-index: -1;
@@ -413,7 +412,6 @@ p {
     color: white;
     cursor: pointer;
 }
-
 .cta-btn:hover::before {
     transform: translate3d(-50%, -50%, 0) scale3d(30, 30, 30);
 }

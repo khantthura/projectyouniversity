@@ -4,11 +4,11 @@
     align-items: center;
     flex-direction: column;
     width: 500px;
-    height: auto;
+    height: 486px;
     box-shadow: 5px 6px 29px 13px hsla(0, 0%, 0%, 0.14);
     border-radius: 2rem;
     background: url("../img/gradient.jpg") center center no-repeat;
-    padding: 100px;
+    padding: 50px;
 }
 .quiz-container h3 {
     margin-bottom: 50px;
