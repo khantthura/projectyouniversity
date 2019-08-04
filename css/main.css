@@ -208,7 +208,7 @@ p {
   background: rgba(0,0,0,.5);
   box-sizing: border-box;
 }
-.slider-container .slider .slide .caption a {
+.slide-uni {
   text-decoration: none;
   color: #fff;
   font-size: 21px;
@@ -385,14 +385,103 @@ p {
     line-height: 1.5;
     color: #0c5460;
 }
+/* .btn-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 300px;
+    padding: 60px;
+} */
+.border-eff {
+    position: relative;
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+.border-eff span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #ffffff, #00a79d);
+    animation: animate1 2s linear infinite;
+}
+@keyframes animate1 {
+    0%
+    {
+      transform: translateX(-100%);
+    }
+    100%;
+    {
+      transform: translateX(100%);
+    }
+}
+.border-eff span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to bottom, #ffffff, #00a79d);
+    animation: animate2 2s linear infinite;
+}
+@keyframes animate2 {
+    0%
+    {
+      transform: translateY(-100%);
+    }
+    100%;
+    {
+      transform: translateY(100%);
+    }
+}
+.border-eff span:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to left, #ffffff, #00a79d);
+    animation: animate3 2s linear infinite;
+}
+@keyframes animate3 {
+    0%
+    {
+      transform: translateX(100%);
+    }
+    100%;
+    {
+      transform: translateX(-100%);
+    }
+}
+.border-eff span:nth-child(4) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to top, #ffffff, #00a79d);
+    animation: animate4 2s linear infinite;
+}
+@keyframes animate4 {
+    0%
+    {
+      transform: translateY(100%);
+    }
+    100%;
+    {
+      transform: translateY(-100%);
+    }
+}
 .cta-btn {
     z-index: 1;
     position: relative;
     outline: none;
     overflow: hidden;
     padding: 20px 40px;
-    border: 2px #00a79d solid;
-    border-radius: 5px;
+    border: none;
+    /* border-radius: 5px; */
     background: transparent;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
