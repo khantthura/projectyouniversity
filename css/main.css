@@ -382,14 +382,6 @@ p {
     line-height: 1.5;
     color: #0c5460;
 }
-/* .btn-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 900px;
-    height: 300px;
-    padding: 60px;
-} */
 .border-eff {
     position: relative;
     background-color: #f2f2f2;
@@ -478,7 +470,6 @@ p {
     overflow: hidden;
     padding: 20px 40px;
     border: none;
-    /* border-radius: 5px; */
     background: transparent;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
@@ -550,5 +541,5 @@ p {
     padding-bottom: 20px;
 }
 .mb-30 {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
