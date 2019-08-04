@@ -7,40 +7,7 @@
     <link rel="stylesheet" href="../css/main.css">
     <script src="../search.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Domine:400,700|Roboto:100,400&display=swap" rel="stylesheet">
-    <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    #myInput {
-      width: 100%;
-      font-size: 16px;
-      padding: 12px 20px 12px 40px;
-      border: 1px solid #ddd;
-      margin-bottom: 12px;
-    }
-
-    #myUL {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    #myUL li a {
-      border: 1px solid #ddd;
-      margin-top: -1px; /* Prevent double borders */
-      background-color: #f6f6f6;
-      padding: 12px;
-      text-decoration: none;
-      font-size: 18px;
-      color: black;
-      display: block
-    }
-
-    #myUL li a:hover:not(.header) {
-      background-color: #eee;
-    }
-    </style>
+    <link rel="stylesheet" href="../css/search.css">
 </head>
 <body>
 <header class="header-container">
@@ -50,7 +17,13 @@
         </div>
         <ul class="navbar">
             <li class="nav-item"><a href="../index.html">Home</a></li>
-            <li class="nav-item current"><a href="../universities.html">Universities</a></li>
+            <div class="dropdown">
+              <li class="nav-item uni"><a href="../universities.html">Universities</a></li>
+              <div class="dropdown-content">
+                <a class="droplist" href="#">Link 1</a>
+                <a class="droplist" href="#">Admission Criteria</a>
+              </div>
+            </div>
             <li class="nav-item"><a href="../aboutus.html">About Us</a></li>
             <li class="nav-item"><a href="../reportbugs.html">Report Bugs</a></li>
         </ul>
