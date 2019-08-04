@@ -1,4 +1,3 @@
-
 a{
     text-decoration: none;
 }
@@ -8,7 +7,6 @@ a{
 .section-container > img {
     max-height: 200px;
 }
-
 .goal-container
 {
     display: flex;
@@ -35,8 +33,9 @@ a{
     text-align: center;
     font-size: 1.5rem;
     padding: 10px;
-    margin-bottom: 10px;
-    background: url("../img/background-blurred.png") center center no-repeat;
+    margin-bottom: 30px;
+    background: url("../img/trianglify.png") center center no-repeat;
+    background-size: cover;
     border-radius: 10px 10px 0 0;
     color: white;
     width: 100%;
@@ -63,32 +62,28 @@ a{
     padding: 20px;
     font-size: 20px;
 }
-
 .team-section {
     text-align: center;
     background: #fff;
     height: auto;
 }
-
-
 .profile-section {
-    height: auto;
+      height: auto;
 }
-
 .profile-section a {
     display: inline-block;
-    margin: 20px 30px;
+    margin: 5px 30px;
     max-width: 160px;
-    height: 230px;
+    height: 200px;
 }
-
 .profile-section a img {
-    width: 100%;
-    border-radius:50% ;
+    width: 80%;
+    border-radius: 50%;
     filter: grayscale(100%);
     transition: all 0.4s;
 }
 .profile-section a h3 {
+    font-size: 17px;
     padding: 10px;
     height: auto;
     text-decoration: none;
@@ -119,5 +114,8 @@ a{
     list-style-position: inside;
 }
 .downside-text {
+    font-size: 14px;
+    padding-left: 50px;
+    padding-right: 50px;
     color: red;
 }
