@@ -222,20 +222,21 @@ p, ul li {
     cursor: pointer;
 }
 .slider-container .slider .slide.slide1 {
+
+    background: url('../img/UIT.jpg') center center no-repeat;
     background-size: cover;
-    background: url('../img/img1.jpg') center;
 }
 .slider-container .slider .slide.slide2 {
-    background-size: cover;
-    background: url('../img/img2.jpg') center;
+  background: url('../img/YU.jpg') center center no-repeat;
+  background-size: cover;
 }
 .slider-container .slider .slide.slide3 {
-    background-size: cover;
-    background: url('../img/img3.jpg') center;
+  background: url('../img/YTU.jpg') center center no-repeat;
+  background-size: cover;
 }
 .slider-container .slider .slide.slide4 {
-    background-size: cover;
-    background: url('../img/img4.jpg') center;
+  background: url('../img/UM1.jpg') center center no-repeat;
+  background-size: cover;
 }
 @keyframes animate {
   0% {
