@@ -29,10 +29,11 @@
 }
 .uni-attraction {
     width: 100%;
-    height: auto;
+    max-height: 250px;
     background-color: #ab93c9;
     color: #fff;
-    overflow: auto;
+    overflow: hidden;
+    position: relative;
 }
 .box-title {
     text-align: center;
@@ -46,6 +47,7 @@
 }
 .box-text {
     padding: 20px;
+    overflow: scroll;
 }
 .box-text >p {
     line-height: 1.5;
@@ -53,6 +55,9 @@
 .uni-attraction > img {
     width: 500px;
     height: 250px;
+    position:relative;
+    top:0;
+    left:0;
 }
 .flex-column {
     display: flex;
