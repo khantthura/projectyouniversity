@@ -365,20 +365,20 @@ p {
     padding-right: 25px;
 }
 .card.card1 {
-    background-size: cover;
-    background: url('../img/squared-card1.jpg') center;
+    background: url('../uni-logo/uit.png') #fff center center no-repeat;
+    background-size: 200px;
 }
 .card.card2 {
-    background-size: cover;
-    background: url('../img/squared-card2.jpg') center;
+    background: url('../uni-logo/YU_logo.png') #fff center center no-repeat;
+    background-size: auto;
 }
 .card.card3 {
-    background-size: cover;
-    background: url('../img/squared-card3.jpg') center;
+    background: url('../uni-logo/YTU_logo.png') #fff center center no-repeat;
+    background-size: 150px;
 }
 .card.card4 {
-    background-size: cover;
-    background: url('../img/squared-card4.jpg') center;
+    background: url('../uni-logo/UM(1)_logo.png.gif') #fff center center no-repeat;
+    background-size: 150px;
 }
 .featured-name {
     position: absolute;
@@ -444,7 +444,7 @@ p {
     {
       transform: translateX(-100%);
     }
-    100%;
+    100%
     {
       transform: translateX(100%);
     }
@@ -463,7 +463,7 @@ p {
     {
       transform: translateY(-100%);
     }
-    100%;
+    100%
     {
       transform: translateY(100%);
     }
@@ -482,7 +482,7 @@ p {
     {
       transform: translateX(100%);
     }
-    100%;
+    100%
     {
       transform: translateX(-100%);
     }
@@ -501,7 +501,7 @@ p {
     {
       transform: translateY(100%);
     }
-    100%;
+    100%
     {
       transform: translateY(-100%);
     }
