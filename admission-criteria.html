@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Admission - Youniversity | Find your favourite university!</title>
+    <meta name="description" content="We have a handful of universities that may interest you during your decision process.">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/admission.css">
+    <link href="https://fonts.googleapis.com/css?family=Domine:400,700|Roboto:100,400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header-container">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            </div>
+            <ul class="navbar">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <div class="dropdown">
+                  <li class="nav-item uni"><a href="universities.html">Universities</a></li>
+                  <div class="dropdown-content">
+                    <a class="droplist" href="categories.html">University Categories</a>
+                    <a class="droplist" href="#">Admission Criteria</a>
+                  </div>
+                </div>
+                <li class="nav-item"><a href="aboutus.html">About Us</a></li>
+                <li class="nav-item"><a href="reportbugs.html">Report Bugs</a></li>
+            </ul>
+        </div>
+        <div class="header-child">
+            <div class="intro-text">
+                <h1 class="intro-title">
+                    ADMISSION CRITERIA
+                </h1>
+                <!--            <p class="intro-description">-->
+                <!--                This is the placeholder for description of the webpage Title and will be filled later. This place is left for styling convenience.-->
+                <!--            </p>-->
+            </div>
+                <!--        <img class="intro-img" src="img/header-img.png" alt="intro-img">-->
+            </div>
+    </header>
+    <section class="section">
+      <section class="section-container" style="height:auto;box-shadow:4px 6px 23px 8px hsla(0, 0%, 0%, 0.18);">
+      <h2 class="box-title">ADMISSION</h2>
+        <p>In this example we have added a "plus" sign to each button. When the user clicks on the button, the "plus" sign is replaced with a "minus" sign.</p>
+      <div class="admission">
+          <button class="accordion">Medical Universities</button>
+          <div class="panel">
+            <ul>
+               <li>Accept 50% of boys and 50% of girls.<br>
+               <li>Applicant must be a high school graduate(science) student. <br>
+               <li>Applicant have good morality and be in proper health.</li> <br>
+               <li>Applicant must be a Myanmar citizen holding(Naing)/(Pyu)/(Eh) NRC Card.</li> <br>
+               <li>Applicant must fully attend the course at the allocated university by the department.</li> <br>
+               <li>Applicant must agree that after the courses, he shall serve the mother country as public servant for at least (3) years.</li> <br>
+               <li>If applicant do not follow the rules, he shall be fined up to 1 Million kyats as well as punished according to the existing rules and regulations.</li> <br>
+            </ul>
+          </div>
+
+          <button class="accordion">Technological Universities</button>
+          <div class="panel">
+            <ul><li>Applicant must be a high school graduate student.</li> <br>
+	             <li>Applications to Yangon Technological University can be directly registered at Yangon Technological University, Kyo Kone, Insein.</li> <br>
+	             <li>The total of marks of Physics, Chemistry, Maths and English must exceed 320.</li> <br>
+	             <li>Applicant must be a Myanmar citizen holding(Naing)/(Pyu)/(Eh) NRC Card.</li> <br>
+	             <li>Applicant must be able to face challenging environments.
+            </ul>
+          </div>
+          <button class="accordion">Yangon University</button>
+          <div class="panel">
+            <ul><li>Applicant must be a high school graduate student.</li> <br>
+	             <li>Applicant must be a Myanmar citizen holding NRC Card. (must come up with copies.)</li> <br>
+	             <li>Applicant must follow the rules and regulations of the university.</li> <br>
+	             <li>Applications can be directly applied at the university.</li> <br>
+            </ul>
+          </div>
+          <button class="accordion">Maritine Universities</button>
+          <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+
+          <button class="accordion">Section 5</button>
+          <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+
+          <button class="accordion">Section 6</button>
+          <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+
+          <button class="accordion">Section 7</button>
+          <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+          <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight){
+                  panel.style.maxHeight = null;
+                } else {
+                  panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+              });
+            }
+          </script>
+      </section>
+    </section>
+    <footer class="footer-section">
+      <div class="footer-container">
+          <h5 class="footer-text">Made with ❤ by Group Dynothunder ⚡️</h5>
+          <p><small class="copyright-text">&copy; 2019 - Dynothunder</small></p>
+      </div>
+      </footer>
+  </body>
+</html>

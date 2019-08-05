@@ -30,8 +30,8 @@
 .uni-attraction {
     width: 100%;
     height: auto;
-    background-color: #209dff;
-    color: white;
+    background-color: #ab93c9;
+    color: #fff;
     overflow: auto;
 }
 .box-title {
@@ -87,14 +87,14 @@
     border-radius: 0 0 5px 5px;
 }
 .column:nth-child(1){
-    background-color: #207dff;
+    background-color: #A535EA;
     border-radius: 0 0 0 20px;
 }
 .column:nth-child(2){
-    background-color: #2b8dff;
+    background-color: #8C33F7;
 }
 .column:nth-child(3){
-    background-color: #209dff;
+    background-color: #7C32FF;
     border-radius: 0 0 20px 0;}
 .column > p{
     text-align: justify;

@@ -7,10 +7,9 @@
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Domine', serif;
 }
-p {
+p, ul li {
     font-family: 'Roboto', sans-serif;
 }
-
 .header-main {
     display:flex;
     justify-content: center;
@@ -175,7 +174,6 @@ p {
     align-items: center;
     flex-direction: column;
     padding: 50px;
-    font-family: sans-serif;
 }
 .slider-container {
     position: relative;
@@ -278,6 +276,7 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 50px;
     width: 900px;
     max-width: 1200px;
 }
@@ -356,14 +355,14 @@ p {
 .card {
     position: relative;
     display: inline-block;
-    width: 400px;
+    width: 300px;
     height: 300px;
     margin: 0 30px;
     background: #faf5ef;
     border-radius: 20px;
     box-shadow: 4px 6px 23px 8px hsla(0, 0%, 0%, 0.18);
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .card.card1 {
     background: url('../uni-logo/uit.png') #fff center center no-repeat;
@@ -385,19 +384,20 @@ p {
     position: absolute;
     text-decoration: none;
     bottom: 20px;
-    width: 350px;
+    width: 270px;
     color: #f2f2f2;
     background: rgba(0, 0, 0, .5);
     border: none;
     border-radius: 12px;
-    padding: 15px;
-    font-size: 16px;
+    padding: 10px;
+    font-size: 13px;
     transition: all 0.4s ease-in-out;
 }
 .featured-name:hover {
     color: #f2f2f2;
     background: rgba(0, 0, 0, .8);
-    font-size: 17px;
+    font-size: 14px;
+    cursor: pointer;
 }
 .cta-container {
     display: flex;
