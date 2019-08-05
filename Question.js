@@ -53,7 +53,6 @@ function Click1() {
     document.getElementById('button1').value=Point1[I];
     document.getElementById('button2').value=Point2[I];
     document.getElementById('button3').value=Point3[I];
-    alert("Finished");
     check(Answer);
   }
   else{
@@ -73,7 +72,6 @@ function Click1() {
 function Click2() {
   if (Quiz[I+1]===undefined){
     Answer[I]=document.getElementById('button2').value;
-    alert("Finished");
     document.getElementById('button1').value=Point1[I];
     document.getElementById('button2').value=Point2[I];
     document.getElementById('button3').value=Point3[I];
@@ -95,7 +93,6 @@ function Click2() {
 function Click3() {
   if (Quiz[I+1]===undefined){
     Answer[I]=document.getElementById('button3').value;
-    alert("Finished");
     document.getElementById('button1').value=Point1[I];
     document.getElementById('button2').value=Point2[I];
     document.getElementById('button3').value=Point3[I];

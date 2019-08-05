@@ -8,7 +8,6 @@
   padding: 12px 20px 12px 40px;
   border: 1px solid #ddd;
   margin-bottom: 12px;
-  text-align: center;
 }
 
 #myUL {
@@ -32,4 +31,10 @@
 
 #myUL li a:hover:not(.header) {
   background-color: #eee;
+}
+.search{
+  width:30px;
+  position:relative;
+  right:-432px;
+  top:-50px;
 }

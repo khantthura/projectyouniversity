@@ -5,93 +5,10 @@
     <title>Mandalay University of Distance Education- Youniversity | Find your favourite university!</title>
     <meta name="description" content="The most traditional university aging 100 in 2020. Load a plentiful branches of major in Arts and Science.">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/uni-page.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Domine:400,700|Roboto:100,400&display=swap" rel="stylesheet">
-    <style>
-        *{
-            box-sizing: border-box;
-        }
 
-        /*iframe{*/
-        /*    float: left;*/
-        /*}*/
-
-        h2{
-            text-align: center;
-        }
-        .header{
-            text-align: center;
-        }
-        table{
-            border-collapse: collapse;
-
-        }
-
-        table th{
-            text-align: center;
-            background-color:#3a7060;
-            color:  #fff;
-            padding: 4px 30px 4px 8px;
-            width: 500px;
-        }
-        table td{
-            border: 1px solid grey;
-            padding: 4px 8px;
-        }
-        table tr td{
-            background-color: #e7edf0;
-        }
-        /*iframe {*/
-        /*    margin: 0 auto;*/
-        /*}*/
-
-
-        p .fact{
-            margin: 0;
-            padding: 0;
-            font-family: sans-serif;
-
-        }
-        .container{
-            width: 800px;
-            margin: 0 auto;
-            display: table;
-            box-sizing: border-box;
-
-        }
-        .row{
-            margin: 20px 0;
-
-        }
-        .column{
-            background-color: #fff;
-            display: table-cell;
-            padding: 10px;
-            width: 33.333%;
-            text-align: center;
-            color: white;
-            vertical-align: middle;
-            border-right: 10px solid #fff;
-            border-left: 10px solid #fff;
-        }
-
-        .column:nth-child(1){
-            background-color: blue;
-        }
-        .column:nth-child(2){
-            background-color: gray;
-        }
-        .column:nth-child(3){
-            background-color: pink;
-        }
-        .map {
-            width: 800px;
-            margin: 0 auto;
-        }
-        #uni-intro-section {
-            flex-direction: column;
-        }
-    </style>
 </head>
 <body>
 <header class="header-container">
@@ -102,9 +19,9 @@
         <ul class="navbar">
             <li class="nav-item"><a href="../index.html">Home</a></li>
             <div class="dropdown">
-              <li class="nav-item uni"><a href="../universities.html">Universities</a></li>
+            <li class="nav-item uni"><a href="../universities.html">Universities</a></li>
               <div class="dropdown-content">
-                <a class="droplist" href="#">Link 1</a>
+                <a class="droplist" href="categories.html">Categories</a>
                 <a class="droplist" href="#">Admission Criteria</a>
               </div>
             </div>
@@ -114,94 +31,224 @@
     </div>
     <div class="header-child">
         <div class="intro-text">
-            <h1 style="font-size:30px;" class="intro-title">
-                Mandalay University of Distance Education
-            </h1>
+          <h1  class="intro-title">
+              Mandalay University of Distance Education
+          </h1>
         </div>
     </div>
 </header>
 <section id="uni-intro-section" class="section">
-    <div style="width: 1300px;">
-        <div style="padding: 10px ;width: 1300px ;height: 100px; background-color: lightblue; color: black; font-size: 50px;">
-            Welcome from Yangon university
+    <div class="section-container">
+        <div class="uni-header mb-30">
+            <div class="uni-title">
+                <h1> Welcome to Yangon University</h1>
+            </div>
+            <div class="uni-attraction flex">
+                <img src="../img/YU.jpg" alt="yangon-university">
+                <div class="flex-column box-text">
+                    <h1 class="mb-30">What makes YU Special?</h1>
+                    <p>
+                        It is the most ancient uni of myanmar.
+                        It will be 100-old uni coming 2020.
+                        As it has been branched loads of majors,there are too many students and not to worry for being bored.In addition, many of pretty girls are from YU.
+                        This uni teaches students their belongings majors fluently if so they can surely get job without difficulty.
+                        One interesting thing is it owned lots of beautiful places which are really nice to take photos.Every other uni students who are visiting YU can't stand not to take photos there.
+                    </p>
+                </div>
+            </div>
         </div>
-        <div style="width: 1300px; height: 300px;float: right; background-color: grey;color: white; overflow: hidden;">
-            <img src="../img/YU.jpg" style="float: left; width: 500px; height: 300px" alt="yangon-university">
-                <h1>What makes YU Special?</h1>
-                <p>
-                    It is the most ancient uni of myanmar.
-                    It will be 100-old uni coming 2020.
-                    As it has been branched loads of majors,there are too many students and not to worry for being bored.In addition, many of pretty girls are from YU.
-                    This uni teaches students their belongings majors fluently if so they can surely get job without difficulty.
-                    One interesting thing is it owned lots of beautiful places which are really nice to take photos.Every other uni students who are visiting YU can't stand not to take photos there.
-                </p>
+        <div class="uni-info flex-column">
+            <h1><mark>Some facts about YU:</mark></h1>
+            <div class="uni-facts flex">
+                    <div class="column flex-column">
+                        <img style="width: 300px; border-radius: 5px 5px 0 0;" src="../img/rector%20YU.jpg" alt="Rector-of-YU">
+                        <div class="rector flex-column">
+                            <h3>Rector</h3>
+                            <h2>Dr.Pho Kaung</h2>
+                        </div>
+                    </div>
+                    <div class="column flex-column">
+                        <h2 class="mb-30">HISTORY</h2>
+                        <p>
+                            The University of Yangon,
+                            founded in 1920, is the earliest university in Myanmar and has played an important role in the life
+                            of the nation through educating future leaders and undertaking ground-breaking research. Today the University
+                            is going through a process of revitalization that will create a flagship university for the future development
+                            of the country.
+                        </p>
+                    </div>
+                    <div class="column flex-column">
+                        <h2 class="mb-30">MOTTO</h2>
+                        <p style="font-size: 2rem; text-align: center;">
+                            ကံကော်ပွင့်ဝေ စိန်ပန်းကြွေတဲ့ သမိုင်းဝင်မြေ Yangon University
+                        </p>
+                    </div>
+            </div>
         </div>
     </div>
-    <div class="container">
-            <h1><mark style="background-color:#3a7060;color: white;padding: 5px;">Some facts about YU:</mark></h1>
-            <div class="row">
-                <div class="column">
-                    <img src="../img/rector%20YU.jpg" alt="Rector of YU" />
-                    <div style="width: 300px; padding: 10px;border: 5px solid gray; margin:0; color: blue;opacity: 100%">
-                    <center>Rector<br />Dr.Pho Kaung</center>
+</section>
+<section id="uni-info-section" class="section">
+    <div class="section-container">
+        <div class="info-container">
+        <h1 class="box-title">Information</h1>
+            <div class="content">
+                <table class="mb-30">
+                    <thead>
+                    <tr>
+                        <th colspan="2"><h2>Number of Students and Staff</h2></th>
+                    </tr>
+                    </thead>
+                    <tr>
+                        <th><h3>Position</h3></th>
+                        <th><h3>Quantity</h3></th>
+                    </tr>
+                    <tr>
+                        <td>Staffs</td>
+                        <td>1249</td>
+                    </tr>
+                    <tr>
+                        <td>Students</td>
+                        <td>15593</td>
+                    </tr>
+                </table>
+            <div class="department-box flex flex-column">
+                <h2>Majors</h2>
+                <div class="row">
+                    <div class="row-box flex flex-column">
+                        <h2 style="margin-bottom: 20px;"><span style="font-size: 2rem;">🎨</span>Arts</h2>
+                        <span class="small-line"></span>
+                        <ul>
+                            <li>Myanmar</li>
+                            <li>English</li>
+                            <li>History</li>
+                            <li>Law</li>
+                            <li>Philosophy</li>
+                            <li>Psychology</li>
+                            <li>Anthropology</li>
+                            <li>Archaeology</li>
+                            <li>International Relations</li>
+                            <li>Geography</li>
+                            <li>Orienteal Studies and Library</li>
+                            <li>Information</li>
+                        </ul>
+                    </div>
+                    <div class="row-box flex flex-column">
+                        <h2 style="margin-bottom: 20px;"><span style="font-size: 2rem;">🔬</span>Science</h2>
+                        <span class="small-line"></span>
+                        <ul>
+                            <li>Physics</li>
+                            <li>Chemistry</li>
+                            <li>Mathematics</li>
+                            <li>Zoo</li>
+                            <li>Botany</li>
+                            <li>Industrial Chemistry</li>
+                            <li>Geology</li>
+                            <li>Computer Studies</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="column">
-                    <h2>HISTORY</h2>
-                    <p>
-                        The University of Yangon,
-                        founded in 1920, is the earliest university in Myanmar and has played an important role in the life
-                        of the nation through educating future leaders and undertaking ground-breaking research. Today the University
-                        is going through a process of revitalization that will create a flagship university for the future development
-                        of the country.
-                    </p>
-                </div>
-                <div class="column">
-                    <h2>MOTTO</h2>
-                    <p>
-                        ကံကော်ပွင့်ဝေ စိန်ပန်းကြွေတဲ့ သမိုင်းဝင်မြေ Yangon University
-                    </p>
+                <table class="mb-30">
+                    <thead>
+                        <tr>
+                            <th colspan="2"><h2>Years of Duration</h2></th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <th>Degrees</th>
+                        <th>Years to study</th>
+                    </tr>
+                    <tr>
+                        <td>First degree</td>
+                        <td>4 years</td>
+                    </tr>
+                    <tr>
+                        <td>Hons</td>
+                        <td>5 years</td>
+                    </tr>
+                    <tr>
+                        <td>Master</td>
+                        <td>3 years</td>
+                    </tr>
+                    <tr>
+                        <td>Graduate Diploma</td>
+                        <td>2 years</td>
+                    </tr>
+                    <tr>
+                        <td>Doctoral</td>
+                        <td>5 years</td>
+                    </tr>
+                    <tr>
+                        <td>ELT Diploma</td>
+                        <td>1 year</td>
+                    </tr>
+                </table>
+                <div class="mark-box">
+                    <p>Minimum Mark Requirement: <span style="font-size: 2rem; font-weight: 900; background: #9E3FDF; padding: 5px; border-radius: 5px; color: #fff;">420</span></p>
                 </div>
             </div>
+                <div class="opinions">
+                    <div class="inner">
+                        <h1 class="box-title">Opinions</h1>
+                        <div class="row-comment">
+                            <div class="col-comment">
+                                <div class="opinion">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                    <div class="name"><h3>Student-1</h3></div>
+                                    <p>YU has good facilities but no unity. It will be better if departments' observations are unity and nice.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-comment">
+                                <div class="opinion">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                    <div class="name"><h3>Student-2</h3></div>
+                                    <p>The students' quantities are pretty much so first-year students are not attended in Main YU.They are taught in RC-2. Come if you're sure in walking.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-comment">
+                                <div class="opinion">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                    <div class="name"><h3>Student-3</h3></div>
+                                    <p>All of the majors in YU are useful if you'll go your career with tha major you attended. But don't think highly degrees because they are same with other universities. So, you should join external classes in your specialize to be professional.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <h1>Our Opinion</h1>
+                        <p style="padding: 20px 40px;">As my opinion, you have various careers if you get a high degree in YU. As they teach majors in specialized, you can work as a tutor in YU or others places. So, if you want to be a professor in majors like English or Myanmar or etc, you should come here.</p>
+                    </div>
+        </div>
+    </div>
+        </div>
     </div>
 </section>
-<section id="uni-info-section">
-    <center>
-        <div style="margin: 20px">
-            <h1>Number of Staffs and Students</h1>
-            <table>
-                <tr>
-                    <th>Position</th>
-                    <th>Quantity</th>
-                <tr>
-                    <td>Staffs</td>
-                    <td>1249</td>
-                </tr>
-                <tr>
-                    <td>Students</td>
-                    <td>15593</td>
-                </tr>
-            </table>
+<section id="uni-contact-section" class="section">
+    <div class="section-container">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15274.705052001638!2d96.12570012090654!3d16.842409014516033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c194b71990dae3%3A0xd5c37278ebb4f327!2sUniversity+of+Yangon!5e0!3m2!1sen!2smm!4v1526702140759" width="100%" height="100%" style="border:0; border-radius: 20px;"></iframe>
         </div>
-    </center>
-</section>
-<section id="uni-contact-section">
-    <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15274.705052001638!2d96.12570012090654!3d16.842409014516033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c194b71990dae3%3A0xd5c37278ebb4f327!2sUniversity+of+Yangon!5e0!3m2!1sen!2smm!4v1526702140759" width="100%" height="450" style="border:0"></iframe>
-    </div>
-        <div class="" style="margin-left: 600px;">
-            <h4><i class="fa fa-address-card-o" aria-hidden="true"></i> : University of Yangon</h4>
-            <p>University Avenue Road, Kamayut Township 11041, Yangon, Myanmar</p>
-            <mark style="background-color: lightblue">	<i class="fa fa-phone-square" aria-hidden="true"></i> : +95 (9) 8602057<br /><br>
-                <i class="fa fa-fax" aria-hidden="true"></i> : +95(9)1 510721</mark>
-        </div>
-        <div style="padding: 3px;background-color: white;text-align: center; color: black">
-            <div class="right-footer">
-                <h4>For more informations and detalis</h4>Click here for official website :
-                <a href="https://www.uy.edu.mm"><i class="fa fa-chrome" aria-hidden="true"></i></a><br />Click here for facebook page :
-                <a href="https://www.facebook.com/UniversityOfYangon/?ref=br_rs"target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+
+        <div class="contact-info flex flex-column">
+            <h2 class="box-title">Contact</h2>
+            <div style="padding: 30px; text-align: center;">
+                <h2>Address</h2>
+                <p class="mb-30">University Avenue Road, Kamayut Township 11041, Yangon, Myanmar</p>
+                <h2>Phone</h2>
+                <p class="mb-30">Tel: <a href="tel:9598602057">+95 (9) 8602057</a><br>
+                    Fax: +95 (0)1 510721</p>
+                <h2>Social Profiles</h2>
+                <div class="social flex">
+                    <div class="flex">
+                        <a href="https://www.uy.edu.mm" target="_blank"><img src="../img/website.svg" alt="website"></a>
+                        <a href="https://www.facebook.com/UniversityOfYangon" target="_blank"><img src="../img/facebook.svg" alt="website"></a>
+                    </div>
+                </div>
+
             </div>
+            </div>
+
     </div>
+
 </section>
 
 <footer class="footer-section">
